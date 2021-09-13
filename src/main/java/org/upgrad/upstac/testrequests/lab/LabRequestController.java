@@ -73,7 +73,7 @@ public class LabRequestController {
         // For reference check the method getForTests() method from LabRequestController class
 
        // throw new ResponseStatusException(HttpStatus.NOT_IMPLEMENTED,"Not implemented"); // replace this line with your code
-        return testRequestQueryService.findBy(RequestStatus.INITIATED);
+        return testRequestQueryService.findByTester(RequestStatus.INITIATED);
 
     }
 
